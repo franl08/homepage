@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+
+<head>
+    <title> Cozy Place </title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet"/>
+    <script src="clock.js"></script>
+    <script src="helpers.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+</head>
+
+
+<body onload="time()">
+    <div class="container-clock">
+        <div class="clock">
+            <div id="clock"></div>
+        </div>
+        <div class="date">
+            <div id="date"></div>
+        </div>
+    </div>
+    <div class="container-salute">
+        <div id="salute"></div>
+    </div>
+    <div class="container-search">
+        <input type="text" id="searchbox" value="" placeholder="Sherlock Holmes">
+        <button type="submit" class="searchButton" id="search-button" onclick="searchURL()">Go</button>
+        <script>document.getElementById('searchbox').addEventListener('keydown', (e) => checkKey(e));</script>
+    </div>
+    <div class="container-icons">
+        <div class="icon"><img src="images/dev.svg"/></div>
+        <div class="icon"><img src="images/helmet.svg"/></div>
+        <div class="icon"><img src="images/cinema.svg"/></div>
+        <div class="icon"><img src="images/reddit.svg"/></div>
+    </div>
+
+
+    <div class="container-box">
+        <div class="box">
+            <a class="animation" href="https://elearning.uminho.com/">Blackboard</a>
+            <a class="animation" href="https://mail.google.com/mail/u/1/">Gmail</a>
+            <a class="animation" href="https://github.com/">GitHub</a>
+            <a class="animation" href="https://drive.google.com/drive/u/1/my-drive">Google Drive</a>
+            <a class="animation" href="https://alunos.uminho.pt/PT">Portal Académico</a>
+        </div>
+
+        <div class="box">
+            <a class="animation" href="https://f1tv.formula1.com/">F1TV</a>
+            <a class="animation" href="https://www.exetercityfc.co.uk/">Exeter City FC</a>
+        </div>
+
+        <div class="box">
+            <a class="animation" href="http://www.youtube.com/">YouTube</a>
+            <a class="animation" href="http://www.twitch.com/">Twitch</a>
+            <a class="animation" href="https://www.primevideo.com/">Prime Video</a>
+            <a class="animation" href="https://www.netflix.com/browse">Netflix</a>
+            <a class="animation" href="https://gogoanime.fi/">GoGoAnime</a>
+        </div>
+
+        <div class="box">
+            <a class="animation" href="http://www.reddit.com/">Reddit</a>
+            <a class="animation" href="https://twitter.com/">Twitter</a>
+            <a class="animation" href="https://www.instagram.com/">Instagram</a>
+            <a class="animation" href="https://web.whatsapp.com/">WhatsApp</a>
+        </div>
+    </div>
+</body>

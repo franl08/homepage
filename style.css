@@ -1,0 +1,151 @@
+body{
+    background-color: #1a1b26;
+}
+
+.container-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.container-clock{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piedpiper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.piedpiper img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock, #date{
+    width: 100%;
+    color: #7dcfff;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', monospace;
+}
+
+.icon img[src*=reddit]{
+    width: 75px;
+    height: 75px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.icon img{
+    width: 60px;
+    height: 60px;
+    margin-right: 80px;
+    margin-left: 80px;
+    float: left;
+    opacity: 80%;
+}
+
+.container-salute{
+    margin-bottom: 10px;
+}
+
+.container-search{
+    opacity: 80%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container-search input[type=text]{
+    background-color:#151624;
+    border: none;
+    width: 30%;
+    height: 30px;
+    opacity: 80%;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'Source Sans Pro', monospace;
+}
+
+.container-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.box{
+    margin-top: 15px;
+    margin-left: 33px;
+    margin-right: 33px;
+    width: 160px;
+    height: 250px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #151624;
+    box-shadow: 0px 0px 20px 0px #151624;
+    overflow: hidden;
+}
+
+.box a{
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: max-content;
+    font-family: 'Source Sans Pro', monospace;
+    color: #7dcfff;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#salute{
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', monospace;
+    color: #ff9e64;
+    text-align: center;
+}
+
+.searchButton {
+    width: 40px;
+    height: 30px;
+    opacity: 80%;
+    background: #151624;
+    text-align: center;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', monospace;
+  }
+
+  .animation::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ff9e64;
+    transition: width .3s;
+  }
+
+  .animation:hover::after{
+    width: 100%;
+    transition: width .3s;
+  }
