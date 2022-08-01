@@ -7,4 +7,4 @@ Dark Reader extension should be disabled to get the expected page without visual
 Inspired by [CGDEX custom-start-page](https://github.com/CGDEX/custom-start-page).
 
 Preview:
-![Preview](../images/preview.png)
+![Preview](https://github.com/franl08/homepage/blob/main/images/preview.png?raw=true)
