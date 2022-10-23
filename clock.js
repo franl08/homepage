@@ -1,7 +1,7 @@
 function time() {
     const clock = new Date();
     const user = 'Alex';
-    let day = clock.getDay();
+    let day = clock.getDate();
     let month = clock.toLocaleString('default', { month : 'long' });
     let salute;
 
